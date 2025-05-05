@@ -146,20 +146,10 @@
   }
 
   function getHubspotFormSubmissionParameters(event) {
-    // Check if hostname contains canibuild.com (works for subdomains too)
-    // for canibuild, we have to use the hubspot_form_id as the utk cookie value
-    const isCanibuild = window.location.hostname.includes("canibuild.com");
-
-    if (isCanibuild) {
-      return {
-        hubspot_form_id: getHubspotUtkCookie(),
-      };
-    } else {
-      return {
-        hubspot_form_id: event?.data?.id,
-        hubspot_utk: getHubspotUtkCookie(),
-      };
-    }
+    return {
+      hubspot_form_id: event?.data?.id,
+      hubspot_utk: getHubspotUtkCookie(),
+    };
   }
 
   function triggerGa4EventForHubspotFormSubmission(eventData) {
