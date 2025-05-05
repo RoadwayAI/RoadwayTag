@@ -1,6 +1,6 @@
 # Roadway Attribution Tag (`tag.js`)
 
-## 1. Why this matters (plain English)
+## 1. Why this matters
 
 Growth marketing teams need to attribute customers across all key growth metrics in order to effectively spend time and budgets. The lack of tools and integrations to pass the right IDs across data platforms to attribute every customer touchpoint across those metrics is the main reason why companies rarely do this. The **Roadway Attribution Tag** bridges the gap—starting with passing anonymousIDs to CRMs to enable end-to-end marketing attribution on sales funnel metrics. It works like this:
 
