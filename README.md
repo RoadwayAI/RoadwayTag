@@ -2,7 +2,6 @@
 
 ## 1. Why this matters (plain English)
 
-1. Why this matters
 Growth marketing teams need to attribute customers across all key growth metrics in order to effectively spend time and budgets. The lack of tools and integrations to pass the right IDs across data platforms to attribute every customer touchpoint across those metrics is the main reason why companies rarely do this. The **Roadway Attribution Tag** bridges the gap—starting with passing anonymousIDs to CRMs to enable end-to-end marketing attribution on sales funnel metrics. It works like this:
 
 
@@ -12,7 +11,6 @@ Growth marketing teams need to attribute customers across all key growth metrics
 
 **Result:** full-funnel reporting that shows *which channels and campaigns actually turn visitors into revenue.*
 
----
 
 ## 2. How it works (technical overview)
 
@@ -24,7 +22,6 @@ Growth marketing teams need to attribute customers across all key growth metrics
 
 Jobs rerun every **1.5 s** until they succeed, so late-loaded forms are still covered.
 
----
 
 ## 3. Quick-start for developers
 
@@ -54,7 +51,6 @@ Jobs rerun every **1.5 s** until they succeed, so late-loaded forms are still co
 
 4. **Deploy** — no further frontend work required.
 
----
 
 ## 4. Link the IDs inside your CRM
 
@@ -64,14 +60,12 @@ This ensures the submitted IDs are stored on the contact record.
 → Detailed instructions:  
 [docs.roadwayai.com › Add Anonymous IDs to CRM Contacts](https://docs.roadwayai.com/required-ids-for-attribution/add-anonymous-ids-to-crm-contacts)
 
----
 
 ## 5. Verify the data
 
 1. Submit a form on a page where the tag is installed.  
 2. Check your CRM: the new contact should have the ID fields populated.  
 
----
 
 ## 6. FAQ
 
@@ -84,5 +78,5 @@ This ensures the submitted IDs are stored on the contact record.
 
 ---
 
-## 7. Learn more about Roadway AI
+## Learn more about Roadway AI
 Scale ARR profitably with AI growth marketers that use real attribution: [**roadwayai.com**](https://roadwayai)
